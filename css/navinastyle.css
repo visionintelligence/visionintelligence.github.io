@@ -1,0 +1,55 @@
+.top-header
+{
+
+background-color:#323232;
+padding:15px 0px;
+color:#fff;
+}
+.top-header .span
+{
+	color:#fff;
+	position:relative;
+	padding-right:15px;
+}
+.top-header .signin a{
+	color:#fff;
+	padding-left:10px;
+	}
+.top-header .span::before
+{
+	content: '';
+position: absolute;
+top:0;
+right: 0;
+background-color:#787878;
+width: 1px;
+height: 95%;
+
+}
+.navbar-nav > li > a::before
+{
+	content:'';
+	position: absolute;
+	width:0;
+	height: 2px;
+	top:0;
+	left:0;
+	background-color: red;
+	z-index:-9999;
+	-webkit-transition: all 1s ease-out;
+	   -moz-transition: all 1s ease-out;
+	    -ms-transition: all 1s ease-out;
+	     -o-transition: all 1s ease-out;
+	        transition: all 1s ease-out;
+}
+.navbar-nav > li > a:hover::before
+{
+	content:'';
+	position: absolute;
+	width:100%;
+	height: 2px;
+	top:0;
+	left:0;
+	background-color: red;
+	z-index:-9999;
+}
