@@ -47,6 +47,7 @@ h4{
 h5{
     font-size: 14px;
     line-height: 24px;
+	text-align: justify;
 }
 a{
     transition: 0.5s ease;
@@ -387,7 +388,7 @@ twke3 img {
     height: 100%;
 }
 figure.effect-winston {
-    background: #162633;
+    background: #ffffff;
     text-align: center;
 }
 figure.effect-winston img {
