@@ -540,6 +540,48 @@ figure.effect-winston:hover p a:first-child i {
 }
 
 /*************************
+     TESTIMONIALS_up SECTION
+*************************/
+.testoup {
+    position: relative;
+    padding: 1.0em 1.0em;
+    margin: 2em 0;
+}
+.testoup img {
+    display: block;
+    margin: -20px auto 18px auto;
+    width: auto;
+    max-height: 100px;
+    border-radius: 100%;
+    border: 1px solid #f1f1f1;
+}
+.testoup h4 {
+    position: relative;
+    text-align: center;
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.00em;
+}
+.testoup h5 {
+    margin-top: 0;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color:#555;
+    
+    letter-spacing: 0.04em;
+}
+.testoup p {
+    position: relative;
+    margin: 1em 0 0.2em 0;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0.03px;
+}
+
+/*************************
       CONTACT SECTION
 *************************/
 .map {
@@ -588,3 +630,228 @@ figure.effect-winston:hover p a:first-child i {
     padding: 10px;
     font-weight: 600;
 }
+ /*****Footer******/
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+a {
+  -webkit-transition: all .25s ease-in-out;
+  transition: all .25s ease-in-out;
+}
+.ct-u-paddingTop10 {
+  padding-top: 10px !important;
+}
+.ct-footer {
+  background-color: #111;
+  padding-top: 70px;
+  margin-top: 20px;
+  position: relative;
+}
+.ct-footer-pre {
+  width: 100%;
+  padding-bottom: 55px;
+  border-bottom: 1px solid #555;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ct-footer-pre span {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ebebeb;
+  font-size: 30px;
+}
+.ct-footer-pre .form-group {
+  position: relative;
+  margin: 0;
+}
+.ct-footer-pre .form-group:before,
+.ct-footer-pre .form-group:after {
+  content: '';
+  display: table;
+}
+.ct-footer-pre .form-group:after {
+  clear: both;
+}
+.ct-footer-pre .form-group input {
+  border: 1px solid #00bff3;
+  background-color: #333;
+  color: #fff;
+  height: 50px;
+  padding: 0 30px;
+  margin: 0 5px;
+  border-radius: 0 !important;
+}
+.ct-footer-pre .form-group button {
+  height: 50px;
+  position: relative;
+  width: 80px;
+  padding: 0
+}
+.ct-footer-list {
+  padding: 50px 0;
+  list-style: none;
+  padding-left: 0;
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #555;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ct-footer-list > li .ct-footer-list-header {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #00bff3;
+  font-size: 30px;
+}
+.ct-footer-list > li ul {
+  list-style: none;
+  padding-left: 0;
+}
+.ct-footer-list > li ul li a {
+  color: #fff;
+}
+.ct-footer-list > li ul li a:hover,
+.ct-footer-post a:hover {
+  text-decoration: underline;
+}
+.ct-footer-post {
+  background: #000;
+  padding: 30px 0;
+}
+.ct-footer-post .inner-left,
+.ct-footer-post .inner-right {
+  padding: 20px 0;
+}
+.ct-footer-post ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 -20px;
+}
+.ct-footer-post ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.ct-footer-post a {
+  color: #fff;
+}
+.ct-footer-post p {
+  color: #fff;
+}
+.ct-footer-meta {
+  padding-top: 30px;
+}
+.ct-footer-meta .ct-socials {
+  padding: 20px 0;
+}
+.ct-footer-meta .ct-socials li {
+  padding: 0 3px;
+}
+.ct-footer--with-button {
+  padding-top: 150px;
+}
+
+
+
+/* tabs mods */
+
+/*--------------------------------------------------
+  REQUIRED to hide the non-active tab content.
+  But do not hide them in the print stylesheet!
+  --------------------------------------------------*/
+.tabberlive .tabbertabhide { display:none;}
+
+/*--------------------------------------------------
+  .tabber = before the tabber interface is set up
+  .tabberlive = after the tabber interface is set up
+  --------------------------------------------------*/
+.tabber {}
+.tabberlive { /* margin-top:1em; */}
+
+/*--------------------------------------------------
+  ul.tabbernav = the tab navigation list
+  li.tabberactive = the active tab
+  --------------------------------------------------*/
+ul.tabbernav{
+    border-bottom: 1px solid #DDD;
+    margin-left: 0;
+    padding-bottom: 7px;
+}
+
+ul.tabbernav li {    list-style: none;    display: inline;}
+
+ul.tabbernav li a
+{
+padding-top: 8px;
+padding-bottom: 8px;
+line-height: 18px;
+border: 1px solid transparent;
+-webkit-border-radius: 4px 4px 0 0;
+-moz-border-radius: 4px 4px 0 0;
+border-radius: 4px 4px 0 0;
+}
+ul.tabbernav li>a{ text-decoration:none;
+padding-right: 12px;
+padding-left: 12px;
+margin-right: 2px;
+ }
+ul.tabbernav li>a:link { /* color: #448; */ }
+ul.tabbernav li>a:visited { /*color: #667; */ }
+
+ul.tabbernav li a:hover
+{
+ color: #000;
+/* background: #AAE; 
+ border-color: #227;  */
+ text-decoration: none;
+background-color: #EEE;
+}
+
+ul.tabbernav li.tabberactive a
+{
+ /*background-color: #fff; */
+ /* border-bottom: 1px solid #fff; */
+ color: #555;
+background-color: white;
+border: 1px solid #DDD;
+border-bottom-color: transparent;
+cursor: default;
+
+}
+
+ul.tabbernav li.tabberactive a:hover
+{
+ color: #000;
+ background: white;
+ border-bottom: 1px solid white;
+ text-decoration: none;
+ 
+}
+
+/*--------------------------------------------------
+  .tabbertab = the tab content 
+  Add style only after the tabber interface is set up (.tabberlive)
+  --------------------------------------------------*/
+.tabberlive .tabbertab { padding:5px;}
+/* border:1px solid #aaa; 
+ border-top:0; */
+
+ /* If you don't want the tab size changing whenever a tab is changed
+    you can set a fixed height */
+
+ /* height:200px; */
+
+ /* If you set a fix height set overflow to auto and you will get a
+    scrollbar when necessary */
+
+ /* overflow:auto; */
+
+
+/* If desired, hide the heading since a heading is provided by the tab */
+.tabberlive .tabbertab h2 { display:none;}
+.tabberlive .tabbertab h3 { display:none;}
+
+/* Example of using an ID to set different styles for the tabs on the page */
+.tabberlive#tab1 {}
+.tabberlive#tab2 {}
+.tabberlive#tab2 .tabbertab { height:200px; overflow:auto;}
+/* end tabes */
